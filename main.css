@@ -1,0 +1,48 @@
+.topnav {
+    overflow: hidden;
+    background-color: #5dd35d;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #3dd35d;
+    color: blue;
+}
+
+input[type=text] {
+    float: right;
+    overflow-y: visible;
+    padding: 8px;
+    margin: 5px 10px 5px 10px;
+    font-size: 13px;
+}
+
+.botmnav {
+    overflow: hidden;
+    background-color: #5dd35d;
+    bottom: 0;
+    position: fixed;
+    width: 95%;
+}
+
+.botmnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.botmnav a:hover {
+    background-color: #3dd35d;
+    color: blue;
+}
