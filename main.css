@@ -30,7 +30,7 @@ input[type=text] {
     background-color: #5dd35d;
     bottom: 0;
     position: fixed;
-    width: 95%;
+    width: 98%;
 }
 
 .botmnav a {
@@ -39,10 +39,23 @@ input[type=text] {
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .botmnav a:hover {
     background-color: #3dd35d;
     color: blue;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.txtbks {
+    overflow-x: scroll;
+    width: 100%;
+    height: 250px;
+    white-space: nowrap;
 }
